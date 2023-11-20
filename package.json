@@ -2,7 +2,7 @@
   "name": "@coreui/coreui-free-react-admin-template",
   "version": "4.5.0",
   "description": "CoreUI Free React Admin Template",
-  "homepage": "https://iglesiasfernando.github.io/smartwater",
+  "homepage": ".",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
@@ -19,9 +19,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
-    "test:debug": "react-scripts --inspect-brk test --runInBand",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "test:debug": "react-scripts --inspect-brk test --runInBand"
   },
   "dependencies": {
     "@coreui/chartjs": "^3.1.2",
@@ -34,7 +32,6 @@
     "chart.js": "^3.9.1",
     "classnames": "^2.3.2",
     "core-js": "^3.31.0",
-    "gh-pages": "^6.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-app-polyfill": "^3.0.0",
